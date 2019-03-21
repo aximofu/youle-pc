@@ -1,0 +1,1 @@
+$.fn.prevAll=function(n){var e=[],i=this[0];if(!i)return $([]);for(;i.previousElementSibling;){var r=i.previousElementSibling;n?$(r).is(n)&&e.push(r):e.push(r),i=r}return $(e)},$.fn.nextAll=function(n){var e=[],i=this[0];if(!i)return $([]);for(;i.nextElementSibling;){var r=i.nextElementSibling;n?$(r).is(n)&&e.push(r):e.push(r),i=r}return $(e)};

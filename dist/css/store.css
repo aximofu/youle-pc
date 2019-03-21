@@ -1,0 +1,97 @@
+header {
+  background: url(../images/store/store_banner_bg.png) no-repeat;
+  background-size: 7.5rem,3.5rem;
+  width: 7.5rem;
+  height: 3.5rem;
+}
+
+header .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  height: .8rem;
+}
+
+header .top i {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  font-size: .56rem;
+  color: white;
+}
+
+header .title {
+  height: .8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  margin-left: 0.3rem;
+  margin-right: 0.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0rem;
+}
+
+header .title .store {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+
+header .title .store img {
+  width: .8rem;
+  height: .8rem;
+  margin-left: 0;
+  margin-right: 0.3rem;
+}
+
+header .title .store .cont p {
+  color: white;
+  font-size: .28rem;
+}
+
+header .title .store .cont .star {
+  width: 2rem;
+}
+
+header .title .store .cont .star img {
+  width: 2rem;
+  height: .28rem;
+}
+
+header .title .collect img {
+  width: 1.2rem;
+  height: .52rem;
+}
+
+header .comment {
+  width: 7.5rem;
+  height: .28rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0rem;
+}
+
+header .comment ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+header .comment ul li {
+  font-size: .28rem;
+  color: #fff;
+}
+
+section .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  width: 7.5rem;
+  height: .9rem;
+  background-color: white;
+}

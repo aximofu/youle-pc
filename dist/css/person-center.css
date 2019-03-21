@@ -1,0 +1,277 @@
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  width: 7.5rem;
+  height: 3.64rem;
+  color: #fff;
+  padding: 0 0 .6rem;
+  background: #e42222;
+  text-align: center;
+}
+
+header .top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header .top-nav a {
+  width: 1rem;
+  height: 0.8rem;
+  line-height: .8rem;
+  font-size: .5rem;
+  color: #fff;
+}
+
+header .user-info {
+  padding: .2rem 0;
+}
+
+header .user-info .pic {
+  width: 1.48rem;
+  height: 1.48rem;
+  border-radius: 50%;
+  margin: 0 auto .2rem;
+  border: solid .06rem #fff;
+  border-radius: 100%;
+  overflow: hidden;
+  background: #fff;
+  background: url(../images/personal-center/avatar21.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+header .user-info a {
+  color: #fff;
+  position: absolute;
+  left: 5.5rem;
+  top: 1.5rem;
+  font-size: .32rem;
+}
+
+header .user-info a i {
+  font-size: .32rem;
+}
+
+header .user-info a i::before {
+  vertical-align: bottom;
+}
+
+header .user-info p {
+  font-size: .36rem;
+}
+
+.order, .property {
+  width: 7.5rem;
+  height: 2.16rem;
+  font-size: .28rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: .2rem;
+}
+
+.order .all-order, .property .all-order, .property .my-property {
+  width: 1.76rem;
+  height: 2.16rem;
+  background: url(../images/personal-center/p_arrow_bg.png) 1.56rem 0 no-repeat;
+  background-size: .2rem 100%;
+}
+
+.order .all-order figure, .property .all-order figure, .property .my-property figure {
+  height: 2.16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order .all-order i, .property .all-order i, .property .my-property i {
+  display: inline-block;
+  width: 1rem;
+  height: 0.7rem;
+  background: url(../images/personal-center/p_icon_orders.png) 0.25rem 0.1rem no-repeat;
+  background-size: .5rem 3rem;
+}
+
+.order .details, .property .details {
+  width: 5.74rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.order .details figure, .property .details figure {
+  height: 2.16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order .details figure i, .property .details figure i {
+  display: inline-block;
+  width: 1rem;
+  height: 0.7rem;
+}
+
+.order .details figure:nth-child(1) i, .property .details figure:nth-child(1) i {
+  background: url(../images/personal-center/p_icon_orders.png) 0.25rem -0.5rem no-repeat;
+  background-size: .5rem 3rem;
+}
+
+.order .details figure:nth-child(2) i, .property .details figure:nth-child(2) i {
+  background: url(../images/personal-center/p_icon_orders.png) 0.25rem -1.1rem no-repeat;
+  background-size: .5rem 3rem;
+}
+
+.order .details figure:nth-child(3) i, .property .details figure:nth-child(3) i {
+  background: url(../images/personal-center/p_icon_orders.png) 0.25rem -2.3rem no-repeat;
+  background-size: .5rem 3rem;
+}
+
+.property {
+  height: 2.58rem;
+}
+
+.property .my-property {
+  height: 2.58rem;
+  background-size: .2rem 100%;
+}
+
+.property .my-property figure {
+  height: 2.58rem;
+}
+
+.property .my-property i {
+  background: url(../images/personal-center/p_icon_wallet.png) 0.2rem 0.1rem no-repeat;
+  background-size: .64rem 3.4rem;
+}
+
+.property .details figure p {
+  font-size: .24rem;
+}
+
+.property .details figure:nth-child(1) i {
+  background: url(../images/personal-center/p_icon_wallet.png) 0.2rem -0.7rem no-repeat;
+  background-size: .64rem 3.4rem;
+}
+
+.property .details figure:nth-child(2) i {
+  background: url(../images/personal-center/p_icon_wallet.png) 0.2rem -1.4rem no-repeat;
+  background-size: .64rem 3.4rem;
+}
+
+.property .details figure:nth-child(3) i {
+  background: url(../images/personal-center/p_icon_wallet.png) 0.2rem -2.1rem no-repeat;
+  background-size: .64rem 3.4rem;
+}
+
+.property .details figure:nth-child(4) i {
+  background: url(../images/personal-center/p_icon_wallet.png) 0.2rem -2.8rem no-repeat;
+  background-size: .64rem 3.4rem;
+}
+
+.other {
+  width: 7.5rem;
+  height: 2.24rem;
+  font-size: .28rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.other figure {
+  width: 1.83rem;
+  text-align: center;
+}
+
+.other img {
+  width: 0.96rem;
+  height: 0.96rem;
+  margin-bottom: .12rem;
+}
+
+button {
+  width: 5.25rem;
+  text-align: center;
+  border: none;
+  display: block;
+  height: .92rem;
+  line-height: .92rem;
+  margin: .6rem auto;
+  background: #e42222;
+  border-radius: .6rem;
+  color: #FFF;
+  font-size: .32rem;
+}
+
+.classfiy-pop {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 100%;
+}
+
+.classfiy-pop ul {
+  position: absolute;
+  right: 0;
+  top: .8rem;
+  background: #fff;
+  z-index: 102;
+}
+
+.classfiy-pop ul li {
+  height: .8rem;
+  line-height: .8rem;
+  border-bottom: .02rem solid #ccc;
+  width: 2.2rem;
+}
+
+.classfiy-pop ul li a {
+  height: .8rem;
+  line-height: .8rem;
+  display: block;
+  width: 100%;
+  color: #333;
+  padding: 0 0 0 .2rem;
+  border-left: .04rem solid #fff;
+  font-size: .32rem;
+}
+
+.classfiy-pop ul li i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.44rem;
+  height: 0.48rem;
+  margin-right: .1rem;
+}
+
+.classfiy-pop ul li:nth-child(1) i {
+  background: url(../images/personal-center/classfiyNav_icon.png) 0 0.03rem no-repeat;
+  background-size: 1.82rem .92rem;
+}
+
+.classfiy-pop ul li:nth-child(2) i {
+  background: url(../images/personal-center/classfiyNav_icon.png) -0.47rem 0.03rem no-repeat;
+  background-size: 1.82rem .92rem;
+}
+
+.classfiy-pop ul li:nth-child(3) i {
+  background: url(../images/personal-center/classfiyNav_icon.png) -0.94rem 0.03rem no-repeat;
+  background-size: 1.82rem .92rem;
+}
+
+.classfiy-pop ul li:nth-child(4) i {
+  background: url(../images/personal-center/classfiyNav_icon.png) -1.41rem 0.03rem no-repeat;
+  background-size: 1.82rem .92rem;
+}
+
+.active {
+  display: block;
+}

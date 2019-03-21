@@ -1,0 +1,1 @@
+var user=getCookie("user");user||(window.location.href="login.html");

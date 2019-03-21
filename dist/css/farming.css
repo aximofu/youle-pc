@@ -1,0 +1,481 @@
+body {
+  background-color: #f8f5f0;
+}
+
+header {
+  background: url(../images/farming/headBg.png) no-repeat;
+  width: 7.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  height: 0.8rem;
+}
+
+header a img {
+  margin-left: 0.05rem;
+  margin-right: 0rem;
+  width: 1.3rem;
+  height: 0.8rem;
+}
+
+header .search {
+  margin-top: 0.1rem;
+  margin-bottom: 0rem;
+  width: 4.9rem;
+  height: 0.6rem;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  margin-left: 0.25rem;
+  margin-right: 0rem;
+}
+
+header .search img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+header .user {
+  width: 0.8rem;
+  height: 0.72rem;
+  margin-top: 0.04rem;
+  margin-bottom: 0rem;
+  margin-left: 0.1rem;
+  margin-right: 0rem;
+}
+
+.section-banner img {
+  width: 7.5rem;
+  height: 3.5rem;
+}
+
+.navbar {
+  width: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+}
+
+.navbar .nav-top, .navbar .nav-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+}
+
+.navbar a {
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.24rem;
+  line-height: .6rem;
+  color: #555;
+}
+
+.navbar a i {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/farming/navbar.png) no-repeat;
+  background-size: 8.4rem;
+}
+
+.navbar .fupin i {
+  background-position: -.5rem -.2rem;
+}
+
+.navbar .specialty i {
+  background-position: -2.1rem -.2rem;
+}
+
+.navbar .selected i {
+  background-position: -3.7rem -.2rem;
+}
+
+.navbar .lab i {
+  background-position: -5.3rem -.2rem;
+}
+
+.navbar .category i {
+  background-position: -6.9rem -.2rem;
+}
+
+.navbar .fruits i {
+  background-position: -.5rem -1.5rem;
+}
+
+.navbar .grain i {
+  background-position: -2.1rem -1.5rem;
+}
+
+.navbar .snack i {
+  background-position: -3.7rem -1.5rem;
+}
+
+.navbar .drysaltery i {
+  background-position: -5.3rem -1.5rem;
+}
+
+.navbar .tea i {
+  background-position: -6.9rem -1.5rem;
+}
+
+.section-new {
+  width: 6.75rem;
+  height: 0.72rem;
+  background-color: #fff;
+  border-radius: .3rem;
+  line-height: .72rem;
+}
+
+.section-new p {
+  width: 6.75rem;
+  height: 0.72rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+
+.section-new i {
+  display: block;
+  background: url(../images/farming/nptoutiao.png) no-repeat;
+  background-position: 0 center;
+  color: red;
+  background-size: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.section-new .swiper-button-next {
+  position: absolute;
+  top: .44rem;
+  right: 0;
+  width: 1.2rem;
+  height: 0.72rem;
+  line-height: .72rem;
+  color: #666;
+  text-align: center;
+  background-color: #fff;
+  z-index: 2;
+  background-image: none;
+}
+
+.groups .group {
+  width: 7.5rem;
+  height: 1.16rem;
+}
+
+.groups ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+
+.groups li {
+  padding: .1rem;
+  padding-bottom: .3rem;
+}
+
+.groups li .old {
+  width: 0.8rem;
+  text-align: center;
+  border-radius: .06rem;
+  background: #eee;
+  line-height: .48rem;
+  color: #999;
+  -webkit-border-radius: .06rem;
+  -moz-border-radius: .06rem;
+  -ms-border-radius: .06rem;
+  -o-border-radius: .06rem;
+}
+
+.groups li img {
+  width: 2.2996rem;
+  height: 2.2996rem;
+}
+
+.groups li .price {
+  color: #999;
+  height: 0.48rem;
+  line-height: 0.48rem;
+}
+
+.groups li .price span:nth-child(2n) {
+  width: 0.8rem;
+  overflow: hidden;
+  color: red;
+  font-family: sans-serif;
+  font-size: .25rem;
+}
+
+.groups li .title {
+  height: .8rem;
+  color: #000;
+  font-size: .28rem;
+  line-height: .8rem;
+  width: 2.2996rem;
+  overflow: hidden;
+}
+
+.groups li .btn {
+  padding: .06rem 0;
+  width: 100%;
+  border-radius: .1rem;
+  background: #e42222;
+  color: #fff;
+  text-align: center;
+}
+
+.selected ul {
+  width: 7.5rem;
+  height: 4.25 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+}
+
+.selected ul li a {
+  overflow: hidden;
+}
+
+.selected ul li a img {
+  width: 2.24rem;
+  height: 2.24rem;
+}
+
+.selected ul li a .title {
+  overflow: hidden;
+  height: .6rem;
+  line-height: .6rem;
+  color: #000;
+}
+
+.selected ul li a .tag {
+  overflow: hidden;
+  height: .4rem;
+  color: #666;
+  text-align: center;
+  font-size: .24rem;
+  line-height: .4rem;
+}
+
+.selected ul li a .price {
+  overflow: hidden;
+  height: .6rem;
+  color: #a2733d;
+  text-align: center;
+  font-size: .28rem;
+  font-family: Verdana,Arial,Helvetica;
+  line-height: .6rem;
+}
+
+.daykill {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+
+.daykill .seckday {
+  width: 1.88rem;
+  height: 2.22rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.daykill ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+}
+
+.daykill li {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  padding: .06rem;
+}
+
+.daykill li img {
+  width: 1.72rem;
+  height: 1.72rem;
+}
+
+.daykill li p {
+  overflow: hidden;
+  margin-top: 0.12rem;
+  margin-bottom: 0rem;
+  height: .36rem;
+  color: #e70;
+}
+
+.daykill li p .cost {
+  padding: 0 .04rem;
+  border-radius: .06rem;
+  background: #fe506a;
+  color: #fff;
+  font-size: .24rem;
+}
+
+.fupin {
+  background-color: #fff;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.fupin .fupi {
+  width: 7.5rem;
+  height: 1.16rem;
+}
+
+.fupin .fupinC {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+
+.fupin .fupinC .fupinH ul li a img {
+  width: 3.75rem;
+  height: 1.8rem;
+}
+
+.fupin .fupinC .fupinG ul li .fupinG-1 {
+  width: 3.75rem;
+  height: 1.8rem;
+}
+
+.fupin .fupinC .fupinG ul .fupinGl {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+}
+
+.fupin .fupinC .fupinG ul .fupinGl .fu {
+  float: left;
+  width: 1.88rem;
+}
+
+.daren {
+  background-color: #fff;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.daren .dare {
+  width: 7.5rem;
+  height: 1.16rem;
+}
+
+.daren ul li img {
+  float: left;
+  width: 3.75rem;
+  height: 2.3rem;
+}
+
+.hotH {
+  background-color: #fff;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.hotH .hot {
+  width: 7.5rem;
+  height: 1.16rem;
+}
+
+.hotH ul img {
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+  width: 1.875rem;
+  height: 2.5rem;
+  float: left;
+}
+
+.hotH ul li:first-child img {
+  width: 3.75rem;
+  height: 2.5rem;
+}
+
+.more {
+  width: 7.5rem;
+  background-color: #fff;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.more p {
+  display: none;
+  text-align: center;
+  font-size: .25rem;
+}
+
+.more .mor {
+  width: 7.5rem;
+  height: 0.8rem;
+}
+
+.more ul {
+  padding: .1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  flex-wrap: wrap;
+}
+
+.more ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  width: 50%;
+}
+
+.more ul li .title {
+  width: 3.45rem;
+  overflow: hidden;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  padding: 0 .1rem;
+  height: 0.56rem;
+  color: #555;
+  font-size: .28rem;
+  line-height: .28rem;
+}
+
+.more ul li .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+}
+
+.more ul li .price > span {
+  padding: .1rem;
+  color: #e70;
+  font-size: .4rem;
+}
+
+.more ul li .price div {
+  height: .49rem;
+  line-height: .49rem;
+  margin-top: .06rem;
+  margin-right: .3rem;
+  padding: 0 .06rem;
+  border-radius: .06rem;
+  background: #ff9f82;
+  color: #fff;
+  font-size: .12rem;
+}
+
+.more img {
+  width: 3.45rem;
+  height: 3.52rem;
+}

@@ -1,0 +1,1 @@
+define(["zepto","ejs","base"],function(e,n){return{add:function(){console.log(1)}}});

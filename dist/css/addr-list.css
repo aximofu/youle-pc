@@ -1,0 +1,107 @@
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  width: 7.5rem;
+  position: relative;
+  text-align: center;
+}
+
+header h3 {
+  background: #fefefe;
+  border-bottom: none;
+  color: #333333;
+  height: .8rem;
+  width: 7.5rem;
+  line-height: .8rem;
+  font-size: .36rem;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+header a.iconfont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 0.8rem;
+  line-height: .8rem;
+  font-size: .5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.addr-list {
+  min-height: 4rem;
+}
+
+.addr-list li {
+  padding: 0 .22rem;
+  margin-top: .2rem;
+  background: #fff;
+}
+
+.addr-list li .default {
+  display: flex;
+  height: 0.8rem;
+  line-height: .8rem;
+  font-size: .28rem;
+}
+
+.addr-list li .default p {
+  padding-left: .05rem;
+}
+
+.addr-list li .default .active {
+  color: red;
+}
+
+.addr-list li i {
+  font-size: .44rem;
+}
+
+.addr-list li i.icon-dui1 {
+  color: red;
+}
+
+.addr-list li .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .28rem;
+  padding-bottom: .1rem;
+}
+
+.addr-list li .info div {
+  width: 6rem;
+  padding-top: .2rem 0 .2rem;
+  overflow: hidden;
+}
+
+.addr-list li .info div p {
+  margin-bottom: .2rem;
+}
+
+.addr-list li .info i {
+  font-size: .5rem;
+}
+
+.add-addr {
+  margin-top: .3rem;
+  width: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.add-addr img {
+  width: 1.2rem;
+}
+
+.add-addr figcaption {
+  color: #333;
+  font-size: .28rem;
+}

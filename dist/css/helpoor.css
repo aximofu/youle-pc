@@ -1,0 +1,60 @@
+header img {
+  width: 7.5rem;
+  height: 3.5rem;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+}
+
+section ul li {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  border: 1px solid lightblue;
+  width: 3.6rem;
+  height: 5.56rem;
+  background-color: #fff;
+}
+
+section ul li img {
+  width: 100%;
+}
+
+section ul li h3 {
+  height: .72rem;
+  font-size: .3rem;
+  overflow: hidden;
+}
+
+section ul li .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  margin-top: 0.08rem;
+  margin-bottom: 0.08rem;
+  font-size: .32rem;
+  font-weight: 700;
+  font-style: normal;
+  color: red;
+  padding-right: 1.5rem;
+}
+
+section ul li .price span {
+  font-size: .28rem;
+  color: #000;
+}
+
+section ul li .on {
+  text-align: center;
+  background-color: #ee3a39;
+  font-size: .32rem;
+  height: .7rem;
+  line-height: .7rem;
+  color: #fff;
+}
